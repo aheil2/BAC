@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BAC Calculator</title>
+</head>
+<body>
+<h1>BAC Calculator</h1>
+    <label for="beers">Beers Consumed:</label>
+    <input type="number" id="beers"><br>
+    One beer = 0.54oz<br><br>
+
+    <label for="wine">Wine Consumed</label>
+    <input type="number" id="wine"><br>
+    One glass of wine = 0.60oz<br><br>
+
+    <label for="shots">Shots Consumed</label>
+    <input type="number" id="shots"><br>
+    One shot = 0.60oz<br><br>
+
+    <label for="weight">Weight (LBS):</label><br>
+    <input type="number" id="weight"><br><br>
+
+    <label for="hours">Time Since Start of Drinking:</label><br>
+    <input type="number" id="hours"><br><br>
+
+    <button>Calculate!</button><br><br>
+
+    <p class="output">
+        Your BAC level is <span id="BAC"></span>%.
+    </p>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>
